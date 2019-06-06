@@ -1,0 +1,80 @@
+body{
+	margin-left: 0;
+}
+.banner{
+	height: 755px;
+	background-color: red;
+	background-image: url(logo.jpg);
+	background-size: 100% 100%;
+}
+@font-face{
+	font-family:myfont;
+	src:url(myfont.ttf);
+}
+h3{
+	font-family:myfont;
+	font-size: 50px;
+}
+.info{
+	height: 1100px;
+	background-color:white;
+	padding-top: 100px;
+}
+.photo{
+	height: 800px;
+	background-color: white;
+}
+.parent{
+	height: 850px;
+	width: 1300px;
+	background-color:white;
+	margin-right: auto;
+	margin-left: auto;
+}
+.block{
+	height: 500px;
+	width: 1230px;
+	background-color: white;
+	display: flex;
+	margin-bottom: 30px;
+	margin-left: 70px;
+}
+.mini_block{
+	height: 500px;
+	width: 500px;
+	background-color: white;
+	margin-left: 50px;
+		transition: 0.8s;
+}
+.mini_block:hover{
+	background-color: white;
+	transform: scale(1.05);
+	opacity: 1;
+
+}
+.coffee{
+	height: 500px;
+	width: 500px
+}
+.text{
+	font-size: 24px;
+	font-family: Brush Script MT, Brush Script Std, cursive
+}
+h4{
+		font-family:myfont;
+	src:url(myfont.ttf);
+	transition: 5;
+}
+h1{
+	text-align: center;
+		font-family:myfont;
+	src:url(myfont.ttf);
+}
+.a1{
+margin-right: auto;
+	margin-left: auto;	
+}
+h4:hover{
+	transform: scale(1.05);
+	opacity: 1;
+}
